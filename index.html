@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>危険物乙4 合格マスター</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ヘッダー -->
+<div id="app-header">
+  <div class="header-icon">🔥</div>
+  <div>
+    <div class="header-title">危険物乙4 合格マスター</div>
+    <div class="header-sub">乙種第4類 危険物取扱者 対策アプリ</div>
+  </div>
+</div>
+
+<!-- メインコンテンツ -->
+<div id="main-content"></div>
+
+<!-- ボトムタブ -->
+<div id="tab-bar">
+  <button class="tab-item active" data-tab="home">    <span class="tab-icon">🏠</span><span class="tab-label">ホーム</span></button>
+  <button class="tab-item" data-tab="practice">       <span class="tab-icon">📖</span><span class="tab-label">演習</span></button>
+  <button class="tab-item" data-tab="mock">           <span class="tab-icon">🏆</span><span class="tab-label">模試</span></button>
+  <button class="tab-item" data-tab="cards">          <span class="tab-icon">✨</span><span class="tab-label">単語</span></button>
+  <button class="tab-item" data-tab="review">         <span class="tab-icon">🔖</span><span class="tab-label">復習</span>
+    <span class="tab-badge hidden" id="bookmark-badge">0</span>
+  </button>
+</div>
+
+<script src="questions.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
